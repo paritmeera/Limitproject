@@ -17,8 +17,7 @@ public class LimitController {
 		LimitTo limit = new LimitTo(1,10);
 		return limit;
 	}
-	LimitTo limit = new LimitTo(1,10);
-	
+
 	@RequestMapping("/limits")
 	public LimitTo retrievLimitService() {
 		
